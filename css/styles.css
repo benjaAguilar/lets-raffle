@@ -1,0 +1,99 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9E2AF;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 50vw;
+    height: 92vh;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+.detail{
+    color: #E74646;
+}
+
+.subtitle{
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    margin: 0;  
+    box-shadow: 0px 0px 2px black;
+    background-color: #FFE5CA;
+}
+
+.caps{
+    font-size: 2rem;
+}
+
+.sort-div p{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #FFE5CA;
+}
+
+.sort-div{
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    background-color: #FA9884;
+}
+
+.sort-div:hover{
+    box-shadow: 0px 0px 2px black;
+    background-color: #E74646;
+    cursor: pointer;
+}
+
+#giveaway-zone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label{
+    padding-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #FFE5CA;
+}
+
+textarea{
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #FFE5CA;
+    font-size: 12px;
+    resize: none;
+}
+
+#btn-s{
+    width: 50%;
+    padding: 10px;
+    margin: 0.5rem;
+    border: none;
+    background-color: #FFE5CA;
+}
+
+#btn-s:hover{
+    cursor: pointer;
+    background-color: #F9E2AF;
+    box-shadow: 0px 0px 2px black;
+}
+
+#sorting{
+    width: 100%;
+    height: 500px;
+}
