@@ -3,17 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Lets raffle!</title>
 </head>
 <body>
     <div class="main">
-        <h1>Lets Raffle!</h1>
-        <p>Web page for giveaways and tournament arrangements</p>
-        <div id="giveaway">
-            <p>Giveaway</p>
+        <h1>Lets <span class="detail">Raffle!</span></h1>
+        <p class="subtitle">Web page for giveaways and tournament arrangements</p>
+        <div id="giveaway" class="sort-div">
+            <p><span class="caps">G</span>iveaway</p>
+            <div id="giveaway-zone">
+                <label for="entrys">Entrys:</label>
+                <textarea name="" id="entrys" cols="30" rows="10"></textarea>
+                <button id="btn-s">Sort</button>
+                <div id="sorting">
+                    sorting animation
+                </div>
+            </div>
         </div>
-        <div id="tournaments">
-            <p>Tournaments</p>
+        <div id="tournaments" class="sort-div">
+            <p><span class="caps">T</span>ournaments</p>
         </div>
     </div>
 </body>
