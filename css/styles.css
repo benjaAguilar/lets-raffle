@@ -97,3 +97,8 @@ textarea{
     width: 100%;
     height: 500px;
 }
+
+.colored{
+    background-color: #E74646;
+    box-shadow: 0px 0px 2px black;
+}
