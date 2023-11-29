@@ -18,6 +18,18 @@ btnSort.addEventListener("click", ()=>{
     let participants = entrys.value.split("\n");
     let winnerNum = getRandomNum(participants.length);
 
-    console.log(participants);
-    console.log("the winner is " + participants[winnerNum]);
+    let principal = document.querySelector("#principal");
+    let less = document.querySelector("#less");
+    let plus = document.querySelector("#plus");
+
+    participants.forEach(participant => {
+        let pIndex = participants.indexOf(participant);
+        let lessI = pIndex - 1;
+        let plusI = pIndex + 1;
+
+        principal.textContent = participants[pIndex];
+        less.textContent = participants[lessI];
+        plus.textContent = participants[plusI];
+            
+    });
 });
