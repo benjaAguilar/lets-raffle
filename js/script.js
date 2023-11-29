@@ -15,9 +15,11 @@ btnGiveaway.addEventListener("click", ()=>{
 });
 
 btnSort.addEventListener("click", ()=>{
+    //choose a winner
     let participants = entrys.value.split("\n");
     let winnerNum = getRandomNum(participants.length);
 
+    //Roulette Part
     let principal = document.querySelector("#principal");
     let less = document.querySelector("#less");
     let plus = document.querySelector("#plus");
@@ -30,6 +32,6 @@ btnSort.addEventListener("click", ()=>{
         principal.textContent = participants[pIndex];
         less.textContent = participants[lessI];
         plus.textContent = participants[plusI];
-            
+
     });
 });
